@@ -66,8 +66,4 @@ app.get("/" , function (req, res) {
 
 
 
-// API Key
-// 2fe74b20bc186214f91755135900c4eb-us2
 
-// Unique List ID
-// 91ea296b19
