@@ -32,11 +32,11 @@ app.post("/" , function (req, res) {
 
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us2.api.mailchimp.com/3.0/lists/91ea296b19";
+  const url = "https://us2.api.mailchimp.com/3.0/lists/uniqueListId";
 
   const options = {
     method: "POST",
-    auth: "pururaj:2fe74b20bc186214f91755135900c4eb-us2"
+    auth: "pururaj:apiKey-us2"
   }
 
   const request = https.request(url , options , function(response) {
@@ -66,8 +66,3 @@ app.get("/" , function (req, res) {
 
 
 
-// API Key
-// 2fe74b20bc186214f91755135900c4eb-us2
-
-// Unique List ID
-// 91ea296b19
